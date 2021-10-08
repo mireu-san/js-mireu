@@ -1,7 +1,13 @@
 # KOREAN
 1. 이 프로젝트는 노마드코더 JS 챌린지를 통해 다시 한번 알게 된, 배운 내용을 직접 사용 해 봄으로써 자신의 JS 활용 능력을 최대한 증명 해 보이는 것 입니다.
 
-2. 사용 예정 툴 및 언어: ES6, JS, bootstrap
+2. 사용 예정 툴 및 언어: ES6, JS, bootstrap(제거, removed)
+
+# Installed:
+- npm i @popperjs/core
+
+# implemented with :
+- https://getbootstrap.com/docs/5.1/getting-started/introduction/ (will not be applied)
 
 # 설계면 - skeleton
 ## 1.0 Header
@@ -28,3 +34,15 @@
 - About me 아바타 뒤에, 배경 넣기 (psv? 웹 파일 활용 참고).
 - portfolio 부분에 대표작 이미지 3개만 넣기.
 
+## 할 수 있는 것 with JS (component):
+- Alerts for dismissing
+- Buttons for toggling states and checkbox/radio functionality
+- Carousel for all slide behaviors, controls, and indicators
+- Collapse for toggling visibility of content
+-Dropdowns for displaying and positioning (also requires Popper)
+-Modals for displaying, positioning, and scroll behavior
+-Navbar for extending our Collapse plugin to implement-responsive behavior
+-Offcanvases for displaying, positioning, and scroll behavior
+-Toasts for displaying and dismissing
+-Tooltips and popovers for displaying and positioning (also-requires Popper)
+-Scrollspy for scroll behavior and navigation updates
