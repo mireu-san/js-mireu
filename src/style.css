@@ -12,9 +12,12 @@ body {
   text-align: center;
   border-radius: 30px;
   border: 2px solid #000000;
-  width: 2440px;
-  height: 583px;
-  margin: 2%;
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  margin-bottom: 7%;
+  margin-top: 2%;
+
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   justify-content: center;
 }
