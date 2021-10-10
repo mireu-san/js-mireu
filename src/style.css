@@ -8,6 +8,14 @@ body {
 
 }
 
+#welcome {
+  font-size: 44px;
+}
+
+#welcome-sub {
+  font-size: 20px;
+}
+
 .wrapper-dogma {
 
   border-radius: 30px;
@@ -23,12 +31,18 @@ body {
 }
 
 .header-picture {
-    display: block;
+    /* display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 5%; */
+    position: relative;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 5.5rem;
 }
 
 .header-section {
