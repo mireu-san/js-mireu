@@ -55,3 +55,22 @@ article {
   transform: translate(0, -50%);
   padding: 1rem;
 }
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: grid;
+}
+
+.left-split {
+  grid-column: 1;
+}
+
+.right-split {
+  grid-column: 2;
+}
+
