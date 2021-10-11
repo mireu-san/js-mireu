@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +12,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 #welcome {
@@ -17,17 +23,15 @@ body {
 }
 
 .wrapper-dogma {
-
   border-radius: 30px;
-  border: 2px solid #000000;
-  width: 80%;
+  width: 65%;
   height: 50%;
-  margin-left: 10%;
+  margin-left: 17.5%;
   margin-bottom: 7%;
   margin-top: 2%;
 
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .header-picture {
@@ -65,9 +69,9 @@ body {
 article {
   position: relative;
   top: 50%;
-  text-align: center;
-  transform: translate(0, -50%);
-  padding: 1rem;
+  /* text-align: center; */
+  /* transform: translate(0, -50%); */
+  /* padding: 1rem; */
 }
 
 h1 {
@@ -78,14 +82,21 @@ h1 {
 /* Pattern styles */
 .container {
   display: grid;
+
+}
+
+.body-section {
+  margin: 0;
 }
 
 .left-split {
   grid-column: 1;
+  width: 25em;
 }
 
 .right-split {
   grid-column: 2;
+  width: 25em;
 }
 
 /* .about-me-picture {
@@ -104,12 +115,13 @@ h1 {
 }
 
 .body-picture {
-  margin-left: 72px;
-  margin-right: 72px;
+  /* margin-left: 72px;
+  margin-right: 72px; */
   max-width: 296px;
   /* height: 296px;
   width: 296px; */
   line-height: 30px;
+  /* padding-left: 1rem; */
 }
 
 #skill-h1 {
@@ -120,4 +132,8 @@ h1 {
 .body-context {
   font-size: 1rem;
   line-height: 30px;
+}
+
+.br-space {
+  line-height: 32px;
 }
