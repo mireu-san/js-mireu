@@ -87,6 +87,7 @@ h1 {
 
 .body-section {
   margin: 0;
+  overflow: auto;
 }
 
 .left-split {
