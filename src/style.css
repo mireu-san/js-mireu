@@ -107,8 +107,8 @@ h1 {
   margin-left: 72px;
   margin-right: 72px;
   max-width: 296px;
-  height: 296px;
-  width: 296px;
+  /* height: 296px;
+  width: 296px; */
   line-height: 30px;
 }
 
