@@ -9,6 +9,11 @@
 # implemented with :
 - https://getbootstrap.com/docs/5.1/getting-started/introduction/ (will not be applied)
 
+# Error note (에러 노트):
+## 해결 못함(원인 불명) - 
+1. 다른 브라우저 및, 모바일은 정상이나 PC Chrome 브라우저 94.0 ver 에서만 text-align: center; 가 적용이 안 됨.
+
+
 # 설계면 - skeleton
 ## 1.0 Header
 ### 1.1 Greeting - title, centre(CSS)
