@@ -97,7 +97,6 @@ h1 {
   margin: 0;
   overflow: hidden;
   display: inline;
-  
 }
 
 
@@ -235,4 +234,15 @@ h1 {
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   color: #fff;
   transition: all 0.3s ease;
+}
+
+/* body id */
+#body-first {
+  padding: 2.5rem;
+}
+#body-second {
+  padding: 2.5rem;
+}
+#body-third {
+  padding: 2.5rem;
 }
