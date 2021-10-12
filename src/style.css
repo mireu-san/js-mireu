@@ -22,16 +22,24 @@ body {
   font-size: 20px;
 }
 
+/* ENTIRE DOCUMENT-SHAPE HOLDER */
 .wrapper-dogma {
   border-radius: 30px;
-  width: 65%;
+/* 임시로 가려둠. 재활성화 해야 됨! */
+  /* width: 50%;
   height: 50%;
   margin-left: 17.5%;
   margin-bottom: 7%;
-  margin-top: 2%;
+  margin-top: 2%; */
 
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
   /* justify-content: center; */
+}
+
+.header-section {
+  margin-top: 5%;
+  text-align: center;
 }
 
 .header-picture {
@@ -49,13 +57,10 @@ body {
     padding: 5.5rem;
 }
 
-.header-section {
-  margin-top: 5%;
-  text-align: center;
-}
 
-.button {
-  background-color: #4CAF50; /* Green */
+
+/* .button {
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -64,11 +69,12 @@ body {
   display: inline-block;
   font-size: 16px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+} */
 
-article {
+li {
   position: relative;
   top: 50%;
+  display: inline;
   /* text-align: center; */
   /* transform: translate(0, -50%); */
   /* padding: 1rem; */
@@ -80,9 +86,11 @@ h1 {
 }
 
 /* Pattern styles */
+/* Note: 여기가 원인. 작업중. */
 .container {
-  display: grid;
-
+  display: grid inline;
+  overflow: auto;
+  align-items: center;
 }
 
 /* !!WRAPPING BODY CONTENT HERE!! */
@@ -91,6 +99,7 @@ h1 {
   overflow: hidden;
   display: inline;
 }
+
 
 .left-split {
   grid-column: 1;
@@ -140,4 +149,90 @@ h1 {
 
 .br-space {
   line-height: 32px;
+}
+
+/* WARNING - experimental area */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.intro {
+  background: #000000;
+  background: linear-gradient(to right, #161616, #000000);
+  padding: 200px 0;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 90%;
+  text-align: center;
+  padding: 30px;
+}
+
+.intro__head {
+  font-size: 100px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.intro__content {
+  font-size: 60px;
+  background: #da22ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #9114ff,
+    #da22ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f0eff,
+    #da22ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.intro__button {
+  font-size: 1.8rem;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  color: #fff;
+  transition: all 0.3s ease;
 }
