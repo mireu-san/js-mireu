@@ -23,7 +23,7 @@ body {
 }
 
 /* ENTIRE DOCUMENT-SHAPE HOLDER */
-.wrapper-dogma {
+.wrapper__dogma {
   /* border-radius: 30px;
 
   width: 50%;
@@ -37,11 +37,11 @@ body {
   /* justify-content: center; */
 }
 
-.header-section {
+.header__section {
   margin-top: 2%;
 }
 
-.header-picture {
+/* .header-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -54,7 +54,7 @@ body {
     margin: 0 auto;
     z-index: 1;
     padding: 5.5rem;
-}
+} */
 
 
 
@@ -93,19 +93,19 @@ h1 {
 }
 
 /* !!WRAPPING BODY CONTENT HERE!! */
-.body-section {
+.body__section {
   margin: 0;
   overflow: hidden;
   display: inline;
 }
 
 
-.left-split {
+.left__split {
   grid-column: 1;
   width: 25em;
 }
 
-.right-split {
+.right__split {
   grid-column: 2;
   width: 25em;
 }
@@ -122,11 +122,65 @@ h1 {
   text-align: center;
 }
 
-#contact-container {
+#contact__container {
   padding: 1rem;
+  display: inline-block -moz-grid-line;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  width: 750px;
+  overflow-y: auto;
 }
 
-.body-picture {
+.button__contact {
+  width: 180px;
+  height: 50px;
+  margin: 15px;
+  display: inline-block;
+}
+
+ #contact__btn__one {
+  background: #000000;
+  background: linear-gradient(to right, #4ef037, #00fff0);
+  border: none;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  text-decoration: none;
+} 
+
+#contact__btn__two {
+  background: #000000;
+  background: linear-gradient(to right, #bab5f6, #a100ff);
+  border: none;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  text-decoration: none;
+}
+
+#contact__btn__three {
+  background: #000000;
+  background: linear-gradient(to right, #fc8a15, #f9d00f);
+  border: none;
+  border-radius: 8px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+  text-decoration: none;
+} 
+
+
+
+.body__picture {
   /* margin-left: 72px;
   margin-right: 72px; */
   max-width: 296px;
@@ -136,17 +190,17 @@ h1 {
   /* padding-left: 1rem; */
 }
 
-#skill-h1 {
+#skill__h1 {
   font-weight: 600;
   font-size: 1.75rem;
 }
 
-.body-context {
+.body__context {
   font-size: 1rem;
   line-height: 30px;
 }
 
-.br-space {
+.br__space {
   line-height: 32px;
 }
 
@@ -203,6 +257,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
+/* first page - top, button - 아래로 반응하기 */
 .intro__button {
   font-size: 1.8rem;
   background: #833ab4;
@@ -216,16 +271,26 @@ h1 {
   position: relative;
   transition: all 0.35s;
   outline: none;
+  text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* global button */
 .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
   padding: 10px 20px;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
+  width: 80%;
+  height: 80px;
+  margin: 0;
+
   border: none;
   outline: none;
   border-radius: 4px;
@@ -236,13 +301,15 @@ h1 {
   transition: all 0.3s ease;
 }
 
+
+
 /* body id */
-#body-first {
+#body__first {
   padding: 2.5rem;
 }
-#body-second {
+#body__second {
   padding: 2.5rem;
 }
-#body-third {
+#body__third {
   padding: 2.5rem;
 }

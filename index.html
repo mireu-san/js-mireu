@@ -7,13 +7,15 @@
     <title>Jongwan Kim | Portfolio</title>
         
     <link rel="stylesheet" href="./src/style.css">
-    <script src="src/header.js"></script>
+    <script src="src/index.js"></script>
     <link 
     rel="stylesheet" 
     href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
     crossorigin="anonymous"
     />
+
+    <script src="https://kit.fontawesome.com/99d5a9a5dd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,8 +28,8 @@
     </div>
 
 <!-- HEAD of the body -->
-    <div class="wrapper-dogma" alt="letter like wallpaper section">
-        <div class="header-section"></div>
+    <div class="wrapper__dogma" alt="letter like wallpaper section">
+        <div class="header__section"></div>
             <!-- <h1 id="welcome">Welcome, this is Jongwan Kim!</h1>
             <h3 id="welcome-sub">I am a frontend developer enthusiast✨</h3>
             <a href="https://github.com/mireu-san"><button class="button">Github</button></a>
@@ -37,40 +39,40 @@
         
 <!-- Main Body - left and right, split in grid  -->
 <!-- body - About me -->
-        <div class="body-section">
-            <section class="container" id="body-first">
-                <div class="left-split">
+        <div class="body__section">
+            <section class="container" id="body__first">
+                <div class="left__split">
                     <li>
-                        <img class="body-picture" src="./image/person.jpg" alt="person avatar">
+                        <img class="body__picture" src="./image/person.jpg" alt="person avatar">
                     </li>
                 </div>
-                <div class="right-split">
+                <div class="right__split">
                     <li>
                         <h1>About me</h1>
-                        <p class=br-space>안녕하세요. 저는 정돈된 프론트앤드 엔지니어를 꿈꾸는 김종완입니다.</p>
-                        <p class=br-space>JavaScript 를 기반으로 다양한 기능을 구현해보며 프로젝트를 만드는 것을 좋아합니다.</p>                 
-                        <p class=br-space>어제보다 더 나은 미래를 지향하며, 삶의 질 개선에 공헌 수 있는 개발자가 되는 것이 목표입니다.</p>
+                        <p class=br__space>안녕하세요. 저는 정돈된 프론트앤드 엔지니어를 꿈꾸는 김종완입니다.</p>
+                        <p class=br__space>JavaScript 를 기반으로 다양한 기능을 구현해보며 프로젝트를 만드는 것을 좋아합니다.</p>                 
+                        <p class=br__space>어제보다 더 나은 미래를 지향하며, 삶의 질 개선에 공헌 수 있는 개발자가 되는 것이 목표입니다.</p>
                     </li>
                 </div>
             </section>
 <!-- body - Skills -->
         <div class="skills">
-            <section class="container" id="body-second">
-                <div class="left-split">
+            <section class="container" id="body__second">
+                <div class="left__split">
                     <li>
-                        <h1 id="skill-h1">Skills</h1>
-                            <div class="body-context">
-                                <p class=br-space>직접 활용 가능하며, 집중하고 있는 것만 내걸었습니다.</p>
-                                <p class=br-space>JavaScript♥, React.js💡, Node.js💡, HTML/CSS✏</p>
-                                <p class=br-space>(선호 및 주력 언어: ♥, 개념 숙지: ✏, 현재 관심 언어 및 프레임워크: 💡)</p>
-                                <p class=br-space>인지는 하나, 경험이 필요한 언어 및 라이브러리:</p>
-                                <p class=br-space>Python(中), Django(下), SCSS(中)</p>
+                        <h1 id="skill__h1">Skills</h1>
+                            <div class="body__context">
+                                <p class=br__space>직접 활용 가능하며, 집중하고 있는 것만 내걸었습니다.</p>
+                                <p class=br__space>JavaScript♥, React.js💡, Node.js💡, HTML/CSS✏</p>
+                                <p class=br__space>(선호 및 주력 언어: ♥, 개념 숙지: ✏, 현재 관심 언어 및 프레임워크: 💡)</p>
+                                <p class=br__space>인지는 하나, 경험이 필요한 언어 및 라이브러리:</p>
+                                <p class=br__space>Python(中), Django(下), SCSS(中)</p>
                             </div>
                     </li>
                 </div>
-                <div class="right-split">
+                <div class="right__split">
                     <li>
-                        <img class="body-picture" src="./image/checklist.jpg" alt="skills image">
+                        <img class="body__picture" src="./image/checklist.jpg" alt="skills image">
                     </li>
                 </div>
             </section>
@@ -78,15 +80,15 @@
 
 <!-- body - portfolio, project -->
         <div class="portfolio">
-            <section class="container" id="body-third">
-                <div class="left-split">
+            <section class="container" id="body__third">
+                <div class="left__split">
                     <li>
-                        <img class="body-picture" src="./image/person.jpg" alt="skills image">
+                        <img class="body__picture" src="./image/person.jpg" alt="skills image">
                     </li>
                 </div>
-                <div class="right-split">
+                <div class="right__split">
                     <li>
-                        <div class="body-context">
+                        <div class="body__context">
                             <h1>Projects</h1>
                             <p>예시 4가지</p>
                         </div>
@@ -96,16 +98,18 @@
         </div>
     </div>
 
+    <section class="container">
             <div class="contact">
                 <h1>Contact</h1>
                 <p>아래의 경로를 통해 연락이 가능합니다.</p>
-                <div id="contact-container">
-                    <!-- <a href="#"><button class="button">+82 10 8215 8540 </button></a>
-                    <a href="#"><button class="button">starmireu@gmail.com</button></a>
-                    <a href="#"><button class="button">Whatsapp</button></a> -->
+                <div id="contact__container">
+                    <a href="tel:+8210-8215-8540"><button class="button__contact" id="contact__btn__one">📳:010-8215-8540</button></a>
+                    <a href="mailto:starmireu@gmail.com"><button class="button__contact" id="contact__btn__two">📧:starmireu@gmail.com</button></a>
+                    <a href="#"><button class="button__contact" id="contact__btn__three"><i class="fas fa-comment"></i>:KakaoTalk</button></a>
                 </div>
             </div>
-            
+    </section>
+
     </div>
 </body>
 </html>
