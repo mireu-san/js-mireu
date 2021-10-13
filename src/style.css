@@ -141,7 +141,7 @@ h1 {
 
  #contact__btn__one {
   background: #000000;
-  background: linear-gradient(to right, #4ef037, #00fff0);
+  background: linear-gradient(to right, #fff6a2, #00fff0);
   border: none;
   border-radius: 8px;
   margin-top: 2rem;
@@ -154,7 +154,7 @@ h1 {
 
 #contact__btn__two {
   background: #000000;
-  background: linear-gradient(to right, #bab5f6, #a100ff);
+  background: linear-gradient(to right, #fff6a2, #a100ff, #f9d00f);
   border: none;
   border-radius: 8px;
   margin-top: 2rem;
@@ -312,4 +312,17 @@ a {
 }
 #body__third {
   padding: 2.5rem;
+}
+
+.skills {
+  background: #8bffff;
+  background: -webkit-linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
+  background: linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
+  padding: 200px 0;
+}
+
+.contact__wrapper {
+  background: #f9d00f;
+  background: linear-gradient(to right, #fc8a15 #fff6a2);
+  padding: 200px 0;
 }
