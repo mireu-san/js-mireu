@@ -3,6 +3,12 @@
 
 2. 사용 예정 툴 및 언어: ES6, JS, bootstrap(제거, removed)
 
+# New plan (written by 15th Oct):
+- Refactoring the current code once the progression is over.
+- ⏳Try benchmarking JS feature I can embed on this project.
+- Note: There is no specific API feature I can add here...for now. (maybe clock feature instead? This is DOM API though.)
+- ⏳Try adding responsive feature (need to benchmark what INSTANCE I can possibly compose it on my project).
+---------------------------------------------------------------
 # Installed:
 - npm i @popperjs/core
 
