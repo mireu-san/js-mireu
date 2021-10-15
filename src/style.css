@@ -326,3 +326,8 @@ a {
   background: linear-gradient(to right, #fc8a15 #fff6a2);
   padding: 200px 0;
 }
+
+.project__title {
+  margin-top: 1rem;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
