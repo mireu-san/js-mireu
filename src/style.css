@@ -41,34 +41,34 @@ body {
   margin-top: 2%;
 }
 
-/* .header-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    position: relative;
-    
-    height: auto;
-    margin: 0 auto;
-    z-index: 1;
-    padding: 5.5rem;
-} */
+/* body - about me */
+/* this self__intro will determine 'grid' display */
+.self__intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
 
+.biography {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
 
+.biography__title {
+  margin-bottom: var(--bottom-margin);
+}
 
-/* .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-} */
+.biography__context {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+/* end of self__intro */
 
 li {
   position: relative;
@@ -117,12 +117,23 @@ h1 {
   padding: 1rem;
 } */
 
-/* footer */
+/* footer - contact */
 .contact {
+  margin-top: 2rem;
+  background: #f9d00f;
+  background: linear-gradient(to right, #fc8a15 #fff6a2);
+  padding: 200px 0;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h1 h2 {
+  margin-bottom: var(--bottom-margin-2);
 }
 
 #contact__container {
+  /* display: flex; */
   padding: 1rem;
   display: inline-block -moz-grid-line;
   position: relative;
@@ -154,7 +165,7 @@ h1 {
 
 #contact__btn__two {
   background: #000000;
-  background: linear-gradient(to right, #fff6a2, #a100ff, #f9d00f);
+  background: linear-gradient(to right, #8a8879, #a100ff, #f9d00f);
   border: none;
   border-radius: 8px;
   margin-top: 2rem;
@@ -178,6 +189,7 @@ h1 {
   text-decoration: none;
 } 
 
+/* END OF CONTACT */
 
 
 .body__picture {
@@ -314,6 +326,7 @@ a {
   padding: 2.5rem;
 }
 
+/* body - skills */
 .skills {
   background: #8bffff;
   background: -webkit-linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
@@ -326,11 +339,14 @@ a {
   text-align: center;
 }
 
+/* END OF body - skills */
+
 .contact__wrapper {
   background: #f9d00f;
   background: linear-gradient(to right, #fc8a15 #fff6a2);
   padding: 200px 0;
 }
+
 
 
 /* Project Only */

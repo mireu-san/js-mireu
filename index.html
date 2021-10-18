@@ -31,7 +31,7 @@
 
 <!-- HEAD of the body -->
     <div class="wrapper__dogma" alt="letter like wallpaper section">
-        <div class="header__section"></div>
+        <!-- <div class="header__section"></div> -->
             <!-- <h1 id="welcome">Welcome, this is Jongwan Kim!</h1>
             <h3 id="welcome-sub">I am a frontend developer enthusiast✨</h3>
             <a href="https://github.com/mireu-san"><button class="button">Github</button></a>
@@ -41,46 +41,52 @@
         
 <!-- Main Body - left and right, split in grid  -->
 <!-- body - About me -->
-        <div class="body__section">
-            <section class="container" id="body__first">
-                <div class="left__split">
-                    <li>
-                        <img class="body__picture" src="./image/person.jpg" alt="person avatar" />
-                    </li>
-                </div>
-                <div class="right__split">
-                    <li>
-                        <h1>About me</h1>
-                        <p class=br__space>안녕하세요. 저는 정돈된 프론트앤드 엔지니어를 꿈꾸는 김종완입니다.</p>
+                <section class="self__intro" id="self__intro">
+                    <img
+                        src="#"
+                        alt="avatar"
+                        loading="lazy"
+                        class="avatar"
+                    />
+                    <div class="biography">
+                        <h2 class="biography__title">Hi, this is Jongwan Kim.</h2>
+                        <p class="biography__context">
+                            <span>안녕하세요. 저는 정돈된 프론트앤드 엔지니어를 꿈꾸는 김종완입니다.</span></br>
+                            <span>JavaScript 를 기반으로 다양한 기능을 구현해보며 프로젝트를 만드는 것을 좋아합니다.</span></br>
+                            <span>어제보다 더 나은 미래를 지향하며, 삶의 질 개선에 공헌 수 있는 개발자가 되는 것이 목표입니다.</span>
+                        </p>
+                        
+                    </div>
+                </section>
+
+                        <!-- <p class=br__space>안녕하세요. 저는 정돈된 프론트앤드 엔지니어를 꿈꾸는 김종완입니다.</p>
                         <p class=br__space>JavaScript 를 기반으로 다양한 기능을 구현해보며 프로젝트를 만드는 것을 좋아합니다.</p>                 
-                        <p class=br__space>어제보다 더 나은 미래를 지향하며, 삶의 질 개선에 공헌 수 있는 개발자가 되는 것이 목표입니다.</p>
-                    </li>
-                </div>
-            </section>
+                        <p class=br__space>어제보다 더 나은 미래를 지향하며, 삶의 질 개선에 공헌 수 있는 개발자가 되는 것이 목표입니다.</p> -->
+
 <!-- body - Skills -->
 
         <div class="skill__container">
             <section class="skills" id="skills">
                 <h2 class="skills__header">Acquired skill set</h2>
-                <span>직접 사용이 가능한 것</span>
+                <!-- <span>직접 사용이 가능한 것</span> -->
 
                 <div class="skills__wrapper">
                     <div class="skill__alphaColumn">
                         <img
                             src=""
-                            alt=""
+                            alt="javascript"
                             loading="lazy"
                             class="box skill__box"
                         />
                         <img
                         src="#"
-                        alt=""
+                        alt="reactjs"
                         loading="lazy"
                         class="box skill__box"
                         />
                         <img
                         src="#"
-                        alt=""
+                        alt="typescript"
                         loading="lazy"
                         class="box skill__box"
                     />
@@ -89,19 +95,19 @@
                     <div class="skill__betaColumn">
                         <img
                         src="#"
-                        alt=""
+                        alt="nodejs"
                         loading="lazy"
                         class="box skill__box"
                         />
                         <img
                         src="#"
-                        alt=""
+                        alt="ECMA6"
                         loading="lazy"
                         class="box skill__box"
                         />
                         <img
                         src="#"
-                        alt=""
+                        alt="HTML/CSS"
                         loading="lazy"
                         class="box skill__box"
                     />
@@ -110,30 +116,7 @@
             </section>
         </div>
 
-
-        <!-- //OLDOLDOLDOLDOLDOLDOLDOLDOLDOLDOLDOLD// <div class="skills">
-            <section class="container" id="body__second">
-                <div class="left__split">
-                    <li>
-                        <h1 id="skill__h1">Skills</h1>
-                            <div class="body__context">
-                                <p class=br__space>직접 활용 가능하며, 집중하고 있는 것만 내걸었습니다.</p>
-                                <p class=br__space>JavaScript♥, React.js💡, Node.js💡, HTML/CSS✏</p>
-                                <p class=br__space>(선호 및 주력 언어: ♥, 개념 숙지: ✏, 현재 관심 언어 및 프레임워크: 💡)</p>
-                                <p class=br__space>인지는 하나, 경험이 필요한 언어 및 라이브러리:</p>
-                                <p class=br__space>Python(中), Django(下), SCSS(中)</p>
-                            </div>
-                    </li>
-                </div>
-                <div class="right__split">
-                    <li>
-                        <img class="body__picture" src="./image/checklist.jpg" alt="skills image" />
-                    </li>
-                </div>
-            </section>
-        </div> -->
-
-<!-- body - portfolio, project -->
+<!-- body - portfolio=project -->
         <div class="portfolio__container">
             <section class="projects" id="projects">
                 <h1 class="project__title">Projects</h1>
@@ -168,6 +151,19 @@
     </div>
 
     <!-- Contact, independent container ! separated from body__section -->
+    <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <h2>궁금하신 점에 대해 답변 드리겠습니다.</h2>
+        <div class="contact__container">
+            <a href="tel:+8210-8215-8540"><button class="button__contact" id="contact__btn__one">📳:010-8215-8540</button></a>
+            <a href="mailto:starmireu@gmail.com"><button class="button__contact" id="contact__btn__two">📧:starmireu@gmail.com</button></a>
+            <a href="https://silverlibrary.tistory.com/"><button class="button__contact" id="contact__btn__three"><i class="fas fa-comment"></i>:Blog</button></a>
+        </div>
+    </section>
+    
+    
+<!--     
+    
     <div class="contact__wrapper">
         <section class="container">
                 <div class="contact">
@@ -181,7 +177,8 @@
                     </div>
                 </div>
         </section>
-    </div>
+    </div> -->
+
     </div>
 </body>
 </html>
