@@ -321,6 +321,11 @@ a {
   padding: 200px 0;
 }
 
+.skill__h1 {
+  align-items: center;
+  text-align: center;
+}
+
 .contact__wrapper {
   background: #f9d00f;
   background: linear-gradient(to right, #fc8a15 #fff6a2);
