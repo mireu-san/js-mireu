@@ -286,6 +286,12 @@ h1 {
   text-decoration: none;
 }
 
+.avatar {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+
 a {
   text-decoration: none;
   color: white;
@@ -326,21 +332,6 @@ a {
   padding: 2.5rem;
 }
 
-/* body - skills */
-.skills {
-  background: #8bffff;
-  background: -webkit-linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
-  background: linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
-  padding: 200px 0;
-}
-
-.skill__h1 {
-  align-items: center;
-  text-align: center;
-}
-
-/* END OF body - skills */
-
 .contact__wrapper {
   background: #f9d00f;
   background: linear-gradient(to right, #fc8a15 #fff6a2);
@@ -352,6 +343,12 @@ a {
 /* Project Only */
 .projects {
   padding: 20px 0;
+
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+
 }
 
 .project__title {
@@ -383,3 +380,60 @@ a {
 }
 
 /* End of project only */
+
+/* Skills */
+.skills{
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skills {
+  background: #8bffff;
+  background: -webkit-linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
+  background: linear-gradient(to right, #3d6cb9, #8f71ff, #8bffff);
+  padding: 200px 0;
+}
+
+.skill__h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.skills__header {
+  margin-top: 1rem;
+}
+
+.skill__container{
+  margin-bottom: 1rem;
+  padding: 1.25rem;
+}
+
+.skills__wrapper img {
+  padding: 1.25rem;
+}
+
+.skill__alphaColumn{
+  padding: 1.25rem;
+}
+.skill__betaColumn{
+  padding: 0.50rem;
+}
+
+.box {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.skill__box {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 6px 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+
+/* END OF skills  */
