@@ -12,6 +12,9 @@
 # Installed:
 - npm i @popperjs/core
 
+# Future threat:
+- https://hogni.tistory.com/150 보안 : (target = "_blank" 를 생각없이 쓰면 안되는 이유)
+
 # implemented with :
 - https://getbootstrap.com/docs/5.1/getting-started/introduction/ (will not be applied)
 
